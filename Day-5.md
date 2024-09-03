@@ -181,8 +181,6 @@ NUMBER OF CANDIES SOLD : 6
 NUMBER OF CANDIES AVAILABLE : 10
 
 ```
-
-
 N = 10
 K = 5 
 order = int(input())
@@ -197,7 +195,5 @@ else:
         print("NUMBER OF CANDIES AVAILABLE : " + str(N))
     else:
         print("NUMBER OF CANDIES AVAILABLE : " + str(N))
-
-
 
 ```
