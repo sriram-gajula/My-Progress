@@ -24,7 +24,9 @@ Follow up: Can you solve the problem in O(1) extra space complexity? (The output
 ##
 ## Solution 
 ```
-l_mult = 1
+class Solution:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        l_mult = 1
         r_mult = 1
         n = len(nums)
         l_arr = [0] * n
@@ -39,4 +41,5 @@ l_mult = 1
 
         return [l*r for l, r in zip(l_arr, r_arr)]
 
+        
 ```
